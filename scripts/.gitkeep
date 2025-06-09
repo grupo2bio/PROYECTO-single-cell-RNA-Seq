@@ -1,0 +1,33 @@
+Ejemplo de un script  necesario para realizar análisis
+
+# Cargar librerías
+library(Seurat)
+library(ggplot2)
+
+# Cargar datos de ejemplo (puedes usar tu archivo .h5 o .csv real)
+pbmc.data <- Read10X(data.dir = "data/")
+
+# Crear objeto Seurat
+pbmc <- CreateSeuratObject(counts = pbmc.data, project = "scRNAseq")
+
+# Normalización
+pbmc <- NormalizeData(pbmc)
+
+# Análisis de genes variables
+pbmc <- FindVariableFeatures(pbmc)
+
+# Escalado
+pbmc <- ScaleData(pbmc)
+
+# Reducción de dimensionalidad
+pbmc <- RunPCA(pbmc)
+pbmc <- RunUMAP(pbmc, dims = 1:10)
+
+# Clustering
+pbmc <- FindNeighbors(pbmc, dims = 1:10)
+pbmc <- FindClusters(pbmc, resolution = 0.5)
+
+# Guardar resultados
+png("results/umap_clusters.png")
+DimPlot(pbmc, reduction = "umap", label = TRUE)
+dev.off()
