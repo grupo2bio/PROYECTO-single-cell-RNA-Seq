@@ -18,6 +18,8 @@ Este proyecto tiene como objetivo analizar datos transcript√≥micos a nivel de c√
 
 ## Estructura del proyecto
 
+![image](https://github.com/user-attachments/assets/8db462a0-d420-48ce-a86e-d0b2aa638ce1)
+
 ![image](https://github.com/user-attachments/assets/b660446b-c8a0-439f-8152-338ff6a9c265)
 
 PROYECTO-single-cell-RNA-Seq/
