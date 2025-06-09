@@ -1,0 +1,9 @@
+#Script de ejemplo:
+Se puede subir bases de datos con este tipo de variables: 
+cell_id,condition,replicate
+cell_1,control,1
+cell_2,treated,1
+cell_3,control,2
+cell_4,treated,2
+
+También puedes tener aquí archuvos de tipo .h5 , .mtx o .tsv para la expresión génica
