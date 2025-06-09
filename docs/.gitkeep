@@ -1,0 +1,14 @@
+# Documento o guía del proyecto
+
+Este documento contiene información útil para la reproducción del análisis.
+
+## Dependencias
+
+- R ≥ 4.2 o Python ≥ 3.8
+- Librerías necesarias: Seurat, Scanpy, ggplot2, pandas, matplotlib
+
+## Estructura recomendada
+
+- `data/`: colocar aquí los archivos `.h5`, `.csv`, `.mtx`, etc.
+- `scripts/`: ejecutar `analisis_seurat.R` o `analisis_scanpy.py`
+- `results/`: se generarán automáticamente los gráficos
