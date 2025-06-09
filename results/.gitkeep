@@ -1,0 +1,6 @@
+# 📊 Resultados
+
+Este directorio contiene las visualizaciones generadas por el análisis scRNA-Seq.
+
+- `umap_clusters.png`: visualización de clústeres celulares.
+- `markers_table.csv`: genes marcadores por clúster (pendiente).
