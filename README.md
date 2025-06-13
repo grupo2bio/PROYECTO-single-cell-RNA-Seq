@@ -15,6 +15,15 @@ Este proyecto tiene como objetivo analizar datos transcriptómicos a nivel de c�
 ## Creación del repositorio en GitHub
 Se accedió a GitHub, se creó una cuenta y posteriormente un nuevo repositorio con el nombre PROYECTO-single-cell-RNA-Seq. Se añadió una descripción clara del propósito del proyecto y se seleccionó la licencia MIT, que permite su reutilización y modificación.
 
+### Colaboración en grupo y gestión de acceso
+Para facilitar el trabajo colaborativo, se compartió el acceso al repositorio de GitHub con todos los miembros del grupo siguiendo estos pasos:
+
+1. Se accedió al repositorio desde la cuenta que lo creó.
+2. En la parte superior derecha del repositorio, se hizo clic en **Settings**.
+3. En el menú lateral, se seleccionó **Collaborators**.
+4. Se ingresaron los nombres de usuario de GitHub de los integrantes en el campo de búsqueda.
+5. Se hizo clic en **Add** junto a cada usuario para enviar la invitación como colaboradores.
+6. Cada miembro aceptó la invitación desde su cuenta.
 
 ## Estructura del proyecto
 Nuestro proyecto contiene un branch principal "Main".
