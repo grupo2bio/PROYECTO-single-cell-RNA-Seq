@@ -19,12 +19,12 @@ El comando git branch -a se utilizó para listar todas las ramas del repositorio
 
 ![image](https://github.com/user-attachments/assets/8db462a0-d420-48ce-a86e-d0b2aa638ce1)
 
-Se crearon 
+Para crear estas carpetas se utilizaron comandos del sistema como mkdir, que permite generar directorios desde la terminal. Específicamente, se ejecutaron los comandos mkdir data scripts results docs, los cuales crean cada una de las carpetas necesarias para estructurar el proyecto. El objetivo de utilizar estos comandos es organizar adecuadamente los archivos del análisis, separando los datos, los scripts, los resultados generados y la documentación, lo cual facilita el trabajo colaborativo, el mantenimiento del proyecto y la reproducibilidad de los análisis.
+
 ![image](https://github.com/user-attachments/assets/c95ab11c-9166-482e-a2ea-650c38ee93ad)
 
 ![image](https://github.com/user-attachments/assets/b660446b-c8a0-439f-8152-338ff6a9c265)
 
-PROYECTO-single-cell-RNA-Seq/
 Se crearon las carpetas `data/`, `scripts/`, `results/` y `docs/` para organizar de forma estructurada los contenidos del proyecto. La carpeta `data/` está destinada a almacenar archivos de datos brutos y preprocesados, como archivos `.h5`, `.mtx` o `.csv`. En `scripts/` se ubican los códigos en R o Python utilizados para el análisis, por ejemplo con herramientas como Seurat o Scanpy. La carpeta `results/` contiene los resultados generados, como gráficas, tablas o archivos serializados. Finalmente, `docs/` reúne documentación relevante, incluyendo manuales, referencias y guías relacionadas con el proyecto.
 
 ![image](https://github.com/user-attachments/assets/6015e67f-a15c-4d59-959d-4b17ae4bbe59)
