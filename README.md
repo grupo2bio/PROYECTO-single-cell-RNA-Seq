@@ -11,6 +11,11 @@ Este proyecto tiene como objetivo analizar datos transcriptómicos a nivel de c�
 - Clustering de células y anotación de tipos celulares.
 - Identificación de genes marcadores por clúster.
 
+
+## Creación del repositorio en GitHub
+Se accedió a GitHub, se creó una cuenta y posteriormente un nuevo repositorio con el nombre PROYECTO-single-cell-RNA-Seq. Se añadió una descripción clara del propósito del proyecto y se seleccionó la licencia MIT, que permite su reutilización y modificación.
+
+
 ## Estructura del proyecto
 Nuestro proyecto contiene un branch principal "Main".
 El comando git branch -a se utilizó para listar todas las ramas del repositorio, tanto locales como remotas. La salida muestra que la rama local activa es main (indicada con un asterisco), y que existe una rama remota llamada origin/main, la cual es también la rama principal del repositorio en GitHub. Además, se observa que remotes/origin/HEAD apunta a origin/main, lo que confirma que main es la rama por defecto del repositorio remoto. Esta información permite verificar en qué rama se está trabajando y cómo se relaciona con el repositorio en línea.
