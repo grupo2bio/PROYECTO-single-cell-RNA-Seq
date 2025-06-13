@@ -1,8 +1,4 @@
 # PROYECTO-single-cell-RNA-Seq
-
-![image](https://github.com/user-attachments/assets/c95ab11c-9166-482e-a2ea-650c38ee93ad)
-
-
 ![image](https://github.com/user-attachments/assets/096afa6e-1ce9-4a9a-9d27-31e5c165f553)
 
 
@@ -19,11 +15,16 @@ Este proyecto tiene como objetivo analizar datos transcriptómicos a nivel de c�
 ## Estructura del proyecto
 NUestro proyecto contiene un branch principal "Main"
 El comando git branch -a se utilizó para listar todas las ramas del repositorio, tanto locales como remotas. La salida muestra que la rama local activa es main (indicada con un asterisco), y que existe una rama remota llamada origin/main, la cual es también la rama principal del repositorio en GitHub. Además, se observa que remotes/origin/HEAD apunta a origin/main, lo que confirma que main es la rama por defecto del repositorio remoto. Esta información permite verificar en qué rama se está trabajando y cómo se relaciona con el repositorio en línea.
+
 ![image](https://github.com/user-attachments/assets/072c8e96-8197-4c46-a3ba-8fa221b5a2d8)
 
 ![image](https://github.com/user-attachments/assets/8db462a0-d420-48ce-a86e-d0b2aa638ce1)
 
 ![image](https://github.com/user-attachments/assets/b660446b-c8a0-439f-8152-338ff6a9c265)
+
+Se crearon 
+
+![image](https://github.com/user-attachments/assets/c95ab11c-9166-482e-a2ea-650c38ee93ad)
 
 PROYECTO-single-cell-RNA-Seq/
 ├── data/ # Archivos brutos y preprocesados (.h5, .mtx, .csv)
