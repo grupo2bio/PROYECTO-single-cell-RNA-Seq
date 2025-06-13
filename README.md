@@ -52,5 +52,7 @@ Primero, se creó un archivo llamado .gitignore en el directorio raíz del proye
 
 El archivo .gitignore indica a Git qué archivos o carpetas deben ser ignorados y no subidos al repositorio remoto. Esto es útil para evitar que archivos temporales, de configuración local, datos grandes o generados automáticamente, y archivos específicos del sistema operativo se mezclen con el código fuente. En este proyecto, el .gitignore incluye reglas para ignorar archivos típicos de sistemas Ubuntu/Linux, archivos temporales de Python y R, carpetas de resultados, logs, archivos de backup y configuraciones locales de editores como .vscode o .idea. Así, el repositorio se mantiene limpio y ligero, facilitando el trabajo colaborativo y evitando subir información innecesaria o sensible.
 
+![image](https://github.com/user-attachments/assets/c9bf58de-e728-41f9-9d28-6da1297a4c28)
 
+El comando cat .gitignore se utiliza para mostrar en la terminal el contenido completo del archivo .gitignore. Esto permite revisar rápidamente qué reglas y patrones se han definido para que Git ignore ciertos archivos o carpetas dentro del proyecto. Es una forma sencilla y directa de verificar que el archivo .gitignore contiene las exclusiones correctas sin necesidad de abrir un editor de texto.
 
