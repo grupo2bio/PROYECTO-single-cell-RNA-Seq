@@ -45,5 +45,12 @@ Se utilizaron los comandos cd, ls y ls -l para navegar y visualizar el contenido
 
 ![image](https://github.com/user-attachments/assets/6015e67f-a15c-4d59-959d-4b17ae4bbe59)
 
+## Creación del archivo .gitignore
+Primero, se creó un archivo llamado .gitignore en el directorio raíz del proyecto utilizando el comando nano .gitignore o cualquier editor de texto. Luego se agregaron reglas específicas para excluir archivos y carpetas innecesarias o temporales del control de versiones. Se guardó el archivo y se verificó su contenido con cat .gitignore. Posteriormente, se agregó el archivo al área de preparación con git add .gitignore, se hizo un commit con git commit -m "Agregar archivo .gitignore con reglas para Ubuntu, Python, R y archivos temporales", y finalmente se subieron los cambios al repositorio remoto con git push origin main.
+
+![image](https://github.com/user-attachments/assets/115489c8-97b3-4015-9225-b3304f210868)
+
+El archivo .gitignore indica a Git qué archivos o carpetas deben ser ignorados y no subidos al repositorio remoto. Esto es útil para evitar que archivos temporales, de configuración local, datos grandes o generados automáticamente, y archivos específicos del sistema operativo se mezclen con el código fuente. En este proyecto, el .gitignore incluye reglas para ignorar archivos típicos de sistemas Ubuntu/Linux, archivos temporales de Python y R, carpetas de resultados, logs, archivos de backup y configuraciones locales de editores como .vscode o .idea. Así, el repositorio se mantiene limpio y ligero, facilitando el trabajo colaborativo y evitando subir información innecesaria o sensible.
+
 
 
