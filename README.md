@@ -18,11 +18,11 @@ El comando git branch -a se utilizó para listar todas las ramas del repositorio
 ![image](https://github.com/user-attachments/assets/072c8e96-8197-4c46-a3ba-8fa221b5a2d8)
 
 ### Verificacion de Git 
-Antes de comenzar a trabajar con el proyecto, es importante asegurarse de que Git esté instalado en el sistema Ubuntu. Para verificarlo, abre una terminal y ejecuta el comando git --version. Si Git está instalado, se mostrará la versión disponible. En caso contrario, puedes instalarlo ejecutando sudo apt install git.
+Antes de comenzar a trabajar con el proyecto, se verificó que Git estuviera instalado en el sistema Ubuntu. Para ello, se abrió una terminal y se ejecutó el comando git --version. Si Git estaba instalado, el sistema mostraba la versión correspondiente. En caso de que no lo estuviera, se procedía a instalarlo utilizando el comando sudo apt install git.
 ![image](https://github.com/user-attachments/assets/ac00bb0c-d033-4102-88aa-b5e63bfeddef)
 
 ### Clonación del repositorio
-Una vez verificado que Git está disponible, se debe clonar el repositorio del proyecto desde GitHub. Esto se hace ejecutando el comando git clone https://github.com/tuusuario/PROYECTO-single-cell-RNA-Seq.git en la terminal. Este comando descargará una copia local del proyecto en una carpeta llamada PROYECTO-single-cell-RNA-Seq. Finalmente, para comenzar a trabajar, ingresa al directorio del proyecto con cd PROYECTO-single-cell-RNA-Seq.
+Una vez verificada la disponibilidad de Git, se clonó el repositorio del proyecto desde GitHub. Este proceso se realizó ejecutando el comando git clone https://github.com/tuusuario/PROYECTO-single-cell-RNA-Seq.git, lo que descargó una copia local del proyecto en una carpeta llamada PROYECTO-single-cell-RNA-Seq. Luego, se accedió al directorio del proyecto con el comando cd PROYECTO-single-cell-RNA-Seq para iniciar el trabajo.
 ![image](https://github.com/user-attachments/assets/5557c810-e5c1-4a49-8084-98d116ad586a)
 
 ### Creación de carpetas
