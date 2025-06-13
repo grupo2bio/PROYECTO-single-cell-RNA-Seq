@@ -17,11 +17,14 @@ El comando git branch -a se utilizó para listar todas las ramas del repositorio
 
 ![image](https://github.com/user-attachments/assets/072c8e96-8197-4c46-a3ba-8fa221b5a2d8)
 
-![image](https://github.com/user-attachments/assets/8db462a0-d420-48ce-a86e-d0b2aa638ce1)
 
 Para crear estas carpetas se utilizaron comandos del sistema como mkdir, que permite generar directorios desde la terminal. Específicamente, se ejecutaron los comandos mkdir data scripts results docs, los cuales crean cada una de las carpetas necesarias para estructurar el proyecto. El objetivo de utilizar estos comandos es organizar adecuadamente los archivos del análisis, separando los datos, los scripts, los resultados generados y la documentación, lo cual facilita el trabajo colaborativo, el mantenimiento del proyecto y la reproducibilidad de los análisis.
 
 ![image](https://github.com/user-attachments/assets/c95ab11c-9166-482e-a2ea-650c38ee93ad)
+
+Luego de crear las carpetas `data/`, `scripts/`, `results/` y `docs/` para estructurar el proyecto, se intentó guardar estos cambios en el repositorio utilizando Git. Para ello, se ejecutaron los comandos necesarios para registrar y subir los cambios al repositorio remoto en GitHub. Primero, se agregaron las carpetas con `git add .`, luego se creó un mensaje de confirmación con `git commit -m "Creación de carpetas del proyecto"`, y finalmente se intentó subir los cambios con `git push origin main`. Sin embargo, como el repositorio remoto ya tenía cambios que no estaban en la copia local, Git rechazó el push. Para solucionarlo, se utilizó `git pull --rebase origin main` para integrar los cambios remotos con los locales, y después se repitió `git push origin main` con éxito, logrando guardar correctamente la estructura del proyecto en el repositorio compartido.
+
+![image](https://github.com/user-attachments/assets/8db462a0-d420-48ce-a86e-d0b2aa638ce1)
 
 Se crearon las carpetas `data/`, `scripts/`, `results/` y `docs/` para organizar de forma estructurada los contenidos del proyecto. La carpeta `data/` está destinada a almacenar archivos de datos brutos y preprocesados, como archivos `.h5`, `.mtx` o `.csv`. En `scripts/` se ubican los códigos en R o Python utilizados para el análisis, por ejemplo con herramientas como Seurat o Scanpy. La carpeta `results/` contiene los resultados generados, como gráficas, tablas o archivos serializados. Finalmente, `docs/` reúne documentación relevante, incluyendo manuales, referencias y guías relacionadas con el proyecto.
 
