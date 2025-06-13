@@ -17,6 +17,13 @@ El comando git branch -a se utilizó para listar todas las ramas del repositorio
 
 ![image](https://github.com/user-attachments/assets/072c8e96-8197-4c46-a3ba-8fa221b5a2d8)
 
+### Verificacion de Git 
+Antes de comenzar a trabajar con el proyecto, es importante asegurarse de que Git esté instalado en el sistema Ubuntu. Para verificarlo, abre una terminal y ejecuta el comando git --version. Si Git está instalado, se mostrará la versión disponible. En caso contrario, puedes instalarlo ejecutando sudo apt install git.
+![image](https://github.com/user-attachments/assets/ac00bb0c-d033-4102-88aa-b5e63bfeddef)
+
+### Clonación del repositorio
+Una vez verificado que Git está disponible, se debe clonar el repositorio del proyecto desde GitHub. Esto se hace ejecutando el comando git clone https://github.com/tuusuario/PROYECTO-single-cell-RNA-Seq.git en la terminal. Este comando descargará una copia local del proyecto en una carpeta llamada PROYECTO-single-cell-RNA-Seq. Finalmente, para comenzar a trabajar, ingresa al directorio del proyecto con cd PROYECTO-single-cell-RNA-Seq.
+
 ### Creación de carpetas
 Para organizar el proyecto, se crearon las carpetas data/, scripts/, results/ y docs/. Esto se realizó con el comando mkdir desde la terminal. El objetivo de utilizar estos comandos es organizar adecuadamente los archivos del análisis, separando los datos, los scripts, los resultados generados y la documentación, lo cual facilita el trabajo colaborativo, el mantenimiento del proyecto y la reproducibilidad de los análisis.
 
