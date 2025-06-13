@@ -23,6 +23,7 @@ Antes de comenzar a trabajar con el proyecto, es importante asegurarse de que Gi
 
 ### Clonación del repositorio
 Una vez verificado que Git está disponible, se debe clonar el repositorio del proyecto desde GitHub. Esto se hace ejecutando el comando git clone https://github.com/tuusuario/PROYECTO-single-cell-RNA-Seq.git en la terminal. Este comando descargará una copia local del proyecto en una carpeta llamada PROYECTO-single-cell-RNA-Seq. Finalmente, para comenzar a trabajar, ingresa al directorio del proyecto con cd PROYECTO-single-cell-RNA-Seq.
+![image](https://github.com/user-attachments/assets/5557c810-e5c1-4a49-8084-98d116ad586a)
 
 ### Creación de carpetas
 Para organizar el proyecto, se crearon las carpetas data/, scripts/, results/ y docs/. Esto se realizó con el comando mkdir desde la terminal. El objetivo de utilizar estos comandos es organizar adecuadamente los archivos del análisis, separando los datos, los scripts, los resultados generados y la documentación, lo cual facilita el trabajo colaborativo, el mantenimiento del proyecto y la reproducibilidad de los análisis.
