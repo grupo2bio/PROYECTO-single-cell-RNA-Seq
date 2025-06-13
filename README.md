@@ -27,3 +27,8 @@ PROYECTO-single-cell-RNA-Seq/
 ├── scripts/ # Scripts en R o Python (Seurat, Scanpy, etc.)
 ├── results/ # Gráficas, tablas, objetos serializados
 ├── docs/ # Manuales, referencias, guías
+
+![image](https://github.com/user-attachments/assets/6015e67f-a15c-4d59-959d-4b17ae4bbe59)
+
+Se utilizaron los comandos cd, ls y ls -l para navegar y visualizar el contenido del repositorio clonado en la máquina virtual. El comando cd PROYECTO-single-cell-RNA-Seq permitió ingresar al directorio del proyecto. Luego, ls mostró una lista básica de archivos y carpetas dentro de ese directorio. Finalmente, ls -l se utilizó para obtener una vista detallada de los archivos y carpetas, incluyendo sus permisos, propietarios, tamaño y fecha de modificación. La salida de este último comando permite verificar quién tiene acceso a los archivos y qué tipo de permisos tiene cada usuario (lectura, escritura y ejecución), lo que es útil para el manejo seguro y correcto del proyecto.
+
